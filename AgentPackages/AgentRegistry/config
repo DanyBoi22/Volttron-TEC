@@ -1,0 +1,10 @@
+{
+  "metadata":{
+    "identity": "None",
+    "role": ["Agent Registry", "Infrastructure"],
+    "description": "Registry for all intstalled agents and their information",
+    "version": "0.1",
+    "author": "Dany"
+  },
+  "registry_filepath": "/home/user/volttron/agents/RegistryAgent/registry.json"
+}

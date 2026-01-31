@@ -1,0 +1,13 @@
+{
+  "metadata":{
+    "identity": "None",
+    "role": ["Control BHKW","Infrastructure"],
+    "description": "Agent that is responsible for validating the control commands for the bhkw plant and controling its status",
+    "version": "0.1",
+    "author": "Dany"
+  },
+  "plant_name": "BHKW",
+  "topic_registry_identity": "topicregistryagent-0.1_1",
+  "agent_manager_identity": "agentmanageragent-0.1_1",
+  "mqtt_interface_identity": "mqttinterfaceagent-0.2_1"
+}

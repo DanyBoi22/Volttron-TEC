@@ -1,0 +1,13 @@
+{
+  "agent_registry_identity": "agentregistryagent-0.1_1",
+  "metadata":{
+    "identity": "None",
+    "role": ["Agent Manager","Infrastructure"],
+    "description": "Agent that manages other agents lifecycle",
+    "version": "0.1",
+    "author": "Dany"
+  },
+  "dependencies": {
+    "mqttinterfaceagent-0.2_1": ["topicregistryagent-0.1_1"]
+  }
+}

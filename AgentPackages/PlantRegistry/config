@@ -1,0 +1,11 @@
+{
+  "plant_status_filepath": "/home/user/volttron/agents/PlantRegistry/plantstatus.json",
+  "service_agent_identity": "",
+  "metadata": {
+    "identity": "None",
+    "role": ["Plant Registry","Infrastructure"],
+    "description": "Agent that manages plants data",
+    "version": "0.1",
+    "author": "Dany"
+  }
+}

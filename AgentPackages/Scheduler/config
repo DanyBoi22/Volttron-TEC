@@ -1,0 +1,12 @@
+{ 
+  "metadata":{
+    "identity": "None",
+    "role": ["Scheduler", "Infrastructure"],
+    "description": "Agent that manages schedules of other agents for experiments",
+    "version": "0.1",
+    "author": "Dany"
+  },
+  "schedules_path": "/home/volttron/.volttron/AgentPackages/SchedulerAgent/scheduler/schedules.json",
+  "agent_manager_identity": "agentmanageragent-0.1_1",
+  "experiment_manager_identity": "expmanageragent-0.1_1"
+}

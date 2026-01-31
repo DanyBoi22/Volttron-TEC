@@ -1,0 +1,14 @@
+{
+  "experiments_data_path": "/home/volttron/.volttron/AgentPackages/ExperimentManager/expmanager/experimentsdata.json",
+  "agent_manager_identity": "agentmanageragent-0.1_1",
+  "scheduler_identity": "scheduleragent-0.1_1",
+  "logger_identity": "loggeragent-0.1_1",
+  "topic_registry_identity": "topicregistryagent-0.1_1",
+  "metadata":{
+    "identity": "None",
+    "role": ["Experiment Manager", "Infrastructure"],
+    "description": "Experiment Manager responsible for persistng and managing all experiment data and orchestrating other agents",
+    "version": "0.1",
+    "author": "Dany"
+  }
+}

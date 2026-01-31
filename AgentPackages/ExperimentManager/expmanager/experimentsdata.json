@@ -1,0 +1,36 @@
+[
+    {
+        "experiment_id": "c98958d4-cb80-11f0-b100-ba8788093e0a",
+        "experimenter": "Dany",
+        "description": "Impulsbeladung test",
+        "start_time": "2025-11-27T11:04:24.589664+00:00",
+        "stop_time": "2025-11-27T16:04:04.589664+00:00",
+        "plants": [
+            "BHKW"
+        ],
+        "external_control": false,
+        "simulation_flag": true,
+        "state": "finished",
+        "authorised_name": "Super cool supervisor",
+        "authorised_time": "2025-11-27T11:04:04.611466+00:00",
+        "agents": [
+            "impulsetestagent-0.1_1"
+        ],
+        "topics": [
+            "command/bhkw/einschaltpunkt",
+            "command/bhkw/ausschaltpunkt",
+            "bhkw/einschaltpunkt",
+            "bhkw/ausschaltpunkt",
+            "bhkw/sollwert",
+            "bhkw/freigabe",
+            "bhkw/bereit",
+            "bhkw/laeuft",
+            "bhkw/error",
+            "bhkw/warning",
+            "bhkw/temperatur/ruecklauf",
+            "bhkw/temperatur/vorlauf",
+            "feedback/bhkw/einschaltpunkt",
+            "feedback/bhkw/ausschaltpunkt"
+        ]
+    }
+]

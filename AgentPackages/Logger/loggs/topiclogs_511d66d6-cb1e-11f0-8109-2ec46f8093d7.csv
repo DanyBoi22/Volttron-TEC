@@ -1,0 +1,77 @@
+timestamp,topic,message
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+2025-11-26T23:35:09.116933+00:00,feedback/bhkw/einschaltpunkt,Validation successfull
+2025-11-26T23:35:09.117338+00:00,feedback/bhkw/ausschaltpunkt,Validation successfull
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+2025-11-26T23:35:41.893133+00:00,feedback/bhkw/einschaltpunkt,Validation successfull
+2025-11-26T23:35:41.893752+00:00,feedback/bhkw/ausschaltpunkt,Validation successfull
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+2025-11-26T23:36:14.718588+00:00,feedback/bhkw/einschaltpunkt,Validation successfull
+2025-11-26T23:36:14.719884+00:00,feedback/bhkw/ausschaltpunkt,Validation successfull
+unknown,command/bhkw/einschaltpunkt,60
+unknown,command/bhkw/ausschaltpunkt,40
+2025-11-26T23:36:47.412127+00:00,feedback/bhkw/einschaltpunkt,Validation successfull
+2025-11-26T23:36:47.413423+00:00,feedback/bhkw/ausschaltpunkt,Validation successfull
+unknown,command/bhkw/einschaltpunkt,40
+unknown,command/bhkw/ausschaltpunkt,60
+2025-11-26T23:37:20.118752+00:00,feedback/bhkw/einschaltpunkt,Validation successfull
+2025-11-26T23:37:20.119112+00:00,feedback/bhkw/ausschaltpunkt,Validation successfull

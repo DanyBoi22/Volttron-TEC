@@ -1,0 +1,7 @@
+{
+    "agent_manager_identity": "agentmanageragent-0.1_1",
+    "target_agent_identity": "topicregistryagent-0.1_1",
+    "scheduler_identity": "scheduleragent-0.1_1",
+    "logger_identity": "loggeragent-0.1_1",
+    "exepriment_manager_identity": "expmanageragent-0.1_1"
+}

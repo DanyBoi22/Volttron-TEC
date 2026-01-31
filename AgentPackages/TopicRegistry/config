@@ -1,0 +1,173 @@
+{
+  "agent_registry_identity": "agentregistryagent-0.1_1",
+  "agent_manager_identity": "agentmanageragent-0.1_1",
+  "metadata":{
+    "identity": "None",
+    "role": ["Topic Registry", "Infrastructure"],
+    "description": "Registry Agent containing information about all external and external topics, aswell as metadata and validation rules for command topics.",
+    "version": "0.1",
+    "author": "Dany"
+  },
+  "Plants topics data": {
+    "BHKW": {
+      "command/bhkw/einschaltpunkt": {
+        "type": "command",
+        "topics": {
+          "feedback": "feedback/bhkw/einschaltpunkt",
+          "validated": "validated/bhkw/einschaltpunkt",
+          "external": "io/cybus/energie-campus/raw/speicher/4/bhkw/einschaltpunkt/set"
+        },
+        "meta": {
+          "comment": "Einschlatpunkt für das BHKW in Grad Celsius. Untere Grenze 30, obere Grenze 80"
+        },
+        "validation":[{
+          "validation_type": "range",
+          "min_value": 30,
+          "max_value": 80
+        }]  
+      },
+
+      "command/bhkw/ausschaltpunkt": {
+        "type": "command",
+        "topics": {
+          "feedback": "feedback/bhkw/ausschaltpunkt",
+          "validated": "validated/bhkw/ausschaltpunkt",
+          "external": "io/cybus/energie-campus/raw/speicher/4/bhkw/ausschaltpunkt/set"
+        },
+        "meta": {
+          "comment": "Ausschlatpunkt für das BHKW in Grad Celsius. Untere Grenze 30, obere Grenze 80"
+        },
+        "validation":[{
+          "validation_type": "range",
+          "min_value": 30,
+          "max_value": 80
+        }]
+      },
+
+      "bhkw/einschaltpunkt": {
+        "type": "status",
+        "topics": {
+          "external": "io/cybus/energie-campus/speicher/4/bhkw/einschaltpunkt"
+        },
+        "meta": {
+          "comment": "Aktueller Einschlatpunkt für das BHKW in Grad Celsius."
+        }
+      },
+
+      "bhkw/ausschaltpunkt": {
+        "type": "status",
+        "topics": {
+          "external": "io/cybus/energie-campus/speicher/4/bhkw/ausschaltpunkt"
+        },
+        "meta": {
+          "comment": "Aktueller Ausschlatpunkt für das BHKW in Grad Celsius."
+        }
+      },
+
+      "bhkw/sollwert": {
+        "type": "status",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/sollwert"
+        },
+        "meta": {}
+      },
+
+      "bhkw/freigabe": {
+        "type": "status",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/freigabe"
+        },
+        "meta": {}
+      },
+
+      "bhkw/bereit": {
+        "type": "status",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/bereit"
+        },
+        "meta": {}
+      },
+
+      "bhkw/laeuft": {
+        "type": "status",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/laeuft"
+        },
+        "meta": {}
+      },
+
+      "bhkw/error": {
+        "type": "error",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/stoerung"
+        },
+        "meta": {}
+      },
+
+      "bhkw/warning": {
+        "type": "warning",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/warnung"
+        },
+        "meta": {}
+      },
+
+      "bhkw/temperatur/ruecklauf": {
+        "type": "sensor",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/ruecklauf/temperatur"
+        },
+        "meta": {}
+      },
+
+      "bhkw/temperatur/vorlauf": {
+        "type": "sensor",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/vorlauf/temperatur"
+        },
+        "meta": {}
+      },
+
+      "bhkw/laufzeit/aktuell": {
+        "type": "sensor",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/laufzeit/aktuell"
+        },
+        "meta": {}
+      },
+
+      "bhkw/leistung/elektrisch/ist": {
+        "type": "sensor",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/leistung/elektrisch"
+        },
+        "meta": {}
+      },
+
+      "bhkw/leistung/thermisch/ist": {
+        "type": "sensor",
+        "topics": {
+          "external": "io/cybus/energie-campus/heizung/bhkw/leistung/thermisch"
+        },
+        "meta": {}
+      }#,
+
+      #"bhkw/leistung/thermisch/soll": {
+      #  "type": "sensor",
+      #  "topics": {
+      #    "external": "io/cybus/energie-campus/heizung/bhkw/laufzeit/aktuell"
+      #  },
+      #  "meta": {}
+      #}, 
+
+      
+      #"bhkw/leistung/elektrisch/soll": {
+      #  "type": "sensor",
+      #  "topics": {
+      #    "external": "io/cybus/energie-campus/heizung/bhkw/laufzeit/aktuell"
+      #  },
+      #  "meta": {}
+      #}
+    }
+  } 
+}
