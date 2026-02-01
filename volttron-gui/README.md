@@ -13,7 +13,9 @@ Because they are using HTTP protocol, it does not matter where you install the G
 
 ## Installation ##
 PyQt
+
 - To install PyQt follow official guide https://pypi.org/project/PyQt6/.
+
 React
 - To install React follow official guide https://react.dev/learn/installation.
 - After installation create a new React-App.
@@ -21,6 +23,9 @@ React
 
 ## Start ##
 PyQt
-- Simply execute the python script from the PyQT subfolder. As already mentioned, at the moment it is a mockup and has almost zero functionality.
+
+Simply execute the python script from the PyQT subfolder. As already mentioned, at the moment it is a mockup and has almost zero functionality.
+
 React
-- Execute the copied start-gui.sh. This will open a browser page with the gui. The gui is functional but may have a lot of bugs. It allows you to control installed agents and have basic experiment control. For further usage of React-App the complete refactoring of the source code is advised. 
+
+Execute the copied start-gui.sh. This will open a browser page with the gui. The gui is functional but may have a lot of bugs. It allows you to control installed agents and have basic experiment control. For further usage of React-App the complete refactoring of the source code is advised. 
