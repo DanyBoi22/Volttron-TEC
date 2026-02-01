@@ -33,11 +33,12 @@ Some essential commands and tipps to use the container and docker in general:
 - The packages with agents are in the mounted directory at AgentPackages/
 - The platform data for installed agents are in the mounted directory at agents/
 - The useful Scripts are at /volttron/scripts
-- To run the commands like packaging an agent etc you have to be in the mounted directory aka: $VOLTTRON_HOME. For Example:
-cd $VOLTTRON_HOME
-vpkg init AgentPackages/TestAgent test
+- To run the commands like packaging an agent etc you have to be in the mounted directory aka: $VOLTTRON_HOME.
+For Example:
+  1. cd $VOLTTRON_HOME
+  2. vpkg init AgentPackages/TestAgent test
 - To run the scripts you have to use the full path for example:
-python3 /volttron/scripts/install-agent.py -s /home/volttron/.volttron/AgentPackages/TestAgent/  c /home/volttron/.volttron/AgentPackages/TestAgent/config/ -t test
+python3 /volttron/scripts/install-agent.py -s /home/volttron/.volttron/AgentPackages/TestAgent/ c /home/volttron/.volttron/AgentPackages/TestAgent/config/ -t test
 - To be able to utilise IDEs properly i would recommend to install a local copy of volttron and select its python env (volttron/env/bin/python) as an interpretor
 
 - IMPORTANT:
@@ -46,5 +47,6 @@ For some reason dockerised Volttron does not run like its local instance. For ex
 ## Common errors:
 The container exists as soon as started with code 127: most likely the entrypoint helper script is broken due to Windows encoding. This happens especially if the folder is copied from Windows to WSL.
 Inside the host system, run:
- sudo apt install dos2unix
-Then use dos2unix on the folder and create new image
+ 1. sudo apt install dos2unix
+ 2. Then use dos2unix on the folder
+ 3. Create new image
