@@ -26,13 +26,13 @@ There are 2 ways to install VOLTTRON. For both you will need Linux System or WSL
 
 - After Installation you need to activate the environment and start the VOLTTRON.
 Start the volttron: 
-    1.	Source ./volttron/env/bin/activate (to start the volttron environment)
-    2.	./start-volttron
+    1.	```source ./volttron/env/bin/activate``` (to start the volttron environment)
+    2.	```./start-volttron```
 
 - On the first platform Installation the Agents will not be installed so you need to install them manually.    
 Install an agent:
     1. Copy the AgentPackages subfolder into the VOLTTRON base directory
-    2. In the volttron environment: python scripts/install-agent.py -s <Base directory of the agent> -c <Path to the config file> -t <Tag of the agent> 
+    2. In the volttron environment: ```bash python scripts/install-agent.py -s <Base directory of the agent> -c <Path to the config file> -t <Tag of the agent> ```bash 
 
     Example: python scripts/install-agent.py -s AgentPackages/TestAgent/ -c AgentPackages/TestAgent/config -t testagent
 
@@ -43,9 +43,10 @@ Install an agent:
 - On the first platform installation the Agents will not start automatically, so you need to start them manually first.
 Start/stop the agent:
 	In the volttron environment
-    1.	Vctl list / status: list with all installed agents
-    2.	for each instaleld agent: vctl start <uuid> / --name <name> / --tag <tag> : start the chosen agent
-    3.	vctl stop -…- : stop the chosen agent 
+    1.	```vctl list``` OR ```vctl status``` (returns list with all installed agents)
+  	for each instaleld agent: 
+    3.	```vctl start <uuid> / --name <name> / --tag <tag>``` (starts the chosen agent)
+    4.	```vctl stop -…-``` (stops the chosen agent) 
 
 ## Developing new agents ##  
 All you need to start can be found in the official documentation: https://volttron.readthedocs.io/en/main/developing-volttron/developing-agents/agent-development.html
@@ -54,6 +55,7 @@ All you need to start can be found in the official documentation: https://volttr
 If you want to use your own libraries you will need to install them as packages in the VOLTTRON env.
 Let’s say your .py code lives in AgentPackages/shared/metadata_mixin.py. You want to install this into an agent as a dependency.
 1.	Restructure it into a pip-installable package:
+```
 shared/ 
 └──  metadata/
 ├── setup.py
@@ -61,7 +63,9 @@ shared/
     └──  metadata/
             ├── __init__.py 
             └──  metadata_mixin.py 
-2.	Fill setup.py:
+```
+3.	Fill setup.py:
+```
 from setuptools import setup, find_packages
 setup(
     name='volttron-metadata',
@@ -71,10 +75,11 @@ setup(
     author=My Name',
     install_requires=[],
 )
-3.	Install the new package in the environment:
-pip install -e ./agents/shared/metadata
-4.	Your agent will now be able to import the new package:
-from metadata.metadata_mixin import MetadataMixin
+```
+5.	Install the new package in the environment:
+```pip install -e ./agents/shared/metadata```
+6.	Your agent will now be able to import the new package:
+```from metadata.metadata_mixin import MetadataMixin```
 
 ## Testing ## 
 Unit tests are very useful to test the agent's functions, because they do not require an agent's installation and start. The communication with paltform or other agents can be mocked. 
@@ -82,6 +87,7 @@ Unit tests are very useful to test the agent's functions, because they do not re
 To test communication of multiple agents, you can run integration tests with simulated environment. For more information see https://volttron.readthedocs.io/en/main/developing-volttron/developing-agents/writing-agent-tests.html#writing-agent-tests or see the examples in the infrastructure agents.
 
 1.	Create a folder for tests inside your agent like Example with ExperimentManager Agent:
+```
 ExperimentManager/ 
 ├── expmanager/
  │    ├── __init__.py 
@@ -91,7 +97,8 @@ ExperimentManager/
  │    ├── conftest.py
  │     └──  test_expmanager.py
  └── [Other files]
-2.	Run “pytest” in the agent folder
+```
+3.	Run ```pytest``` in the agent folder
 
 ## Connect to TEC MQTT Brocker ##
 
