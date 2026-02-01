@@ -28,28 +28,6 @@ AGENTS = {
     "impulsetest": (AGENT_PACKAGES / "testingAgents" / "ImpulseTest", AGENT_PACKAGES / "testingAgents" / "ImpulseTest" / "config"),
 }
 
-AGENTS = {
-    #"agent_manager": ("/home/volttron/.volttron/AgentPackages/AgentManager", "/home/volttron/.volttron/AgentPackages/AgentManager/config"),
-    
-    #"agent_registry": ("/home/volttron/.volttron/AgentPackages/RegistryAgent", "/home/volttron/.volttron/AgentPackages/RegistryAgent/config"),
-    #"plant_registry": ("/home/volttron/.volttron/AgentPackages/PlantRegistry", "/home/volttron/.volttron/AgentPackages/PlantRegistry/config"), 
-    "topic_registry": ("~/home/volttron/.volttron/AgentPackages/TopicRegistryAgent", "~/home/volttron/.volttron/AgentPackages/TopicRegistry/config"),
-    
-    "mqtt_bridge": ("~/home/volttron/.volttron/AgentPackages/MQTTInterfaceAgent", "~/home/volttron/.volttron/AgentPackages/MQTTInterfaceAgent/config"),
-    
-    #"experiment_manager": ("/home/volttron/.volttron/AgentPackages/ExperimentManager", "/home/volttron/.volttron/AgentPackages/ExperimentManager/config"),
-    #"scheduler": ("/home/volttron/.volttron/AgentPackages/Scheduler", "/home/volttron/.volttron/AgentPackages/Scheduler/config"),
-    
-    #"logger": ("/home/volttron/.volttron/AgentPackages/Logger", "/home/volttron/.volttron/AgentPackages/Logger/config"),
-    #"backend_server": ("/home/volttron/.volttron/AgentPackages/BackendAgent", "/home/volttron/.volttron/AgentPackages/BackendAgent/config"),
-    
-    #"bhkw": ("/home/volttron/.volttron/AgentPackages/ControlBHKW", "/home/volttron/.volttron/AgentPackages/ControlBHKW/config"),
-
-    #"tester": ("/home/volttron/.volttron/AgentPackages/testingAgents/TestAgent", "/home/volttron/.volttron/AgentPackages/testingAgents/TestAgent/config"),
-    "impulsetest": ("~/home/volttron/.volttron/AgentPackages/testingAgents/ImpulseTest", "~/home/volttron/.volttron/AgentPackages/testingAgents/ImpulseTest/config"),
-    #"speicher"
-}
-
 def install_agent(base_dir: str, config_file_path: str, tag: str):
     try:
         print(f"\n--- Installing agent: {tag} ---")

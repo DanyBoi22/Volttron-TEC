@@ -1,0 +1,4 @@
+[volttron]
+instance-name = 5db3c516e3bd
+message-bus = zmq
+

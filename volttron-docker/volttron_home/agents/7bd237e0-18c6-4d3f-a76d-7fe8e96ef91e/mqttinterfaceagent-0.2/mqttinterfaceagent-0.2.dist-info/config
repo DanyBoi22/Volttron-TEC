@@ -1,0 +1,20 @@
+{
+# tec "connect.ec.haw-hamburg.de"
+# local "172.19.0.2"
+  "mqtt": {
+    "broker_address": "connect.ec.haw-hamburg.de",
+    "broker_port": 1883,
+    "username": "volttron",
+    "password": "ESaq-95Zs-aHZ2-LcAS",
+    "tls": false
+  },
+  "agent_registry_identity": "agentregistryagent-0.1_1",
+  "topic_registry_identity": "topicregistryagent-0.1_1",
+  "metadata":{
+    "identity": "None",
+    "role": ["MQTT Bridge", "Infrastructure"],
+    "description": "MQTT Interface Agent responsible for biderictional communication with external Infrastructure",
+    "version": "0.1",
+    "author": "Dany"
+  }
+}

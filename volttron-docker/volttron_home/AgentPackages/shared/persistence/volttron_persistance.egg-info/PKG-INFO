@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: volttron-persistance
+Version: 0.1
+Summary: Shared lib to persist data in agents
+Author: Dany

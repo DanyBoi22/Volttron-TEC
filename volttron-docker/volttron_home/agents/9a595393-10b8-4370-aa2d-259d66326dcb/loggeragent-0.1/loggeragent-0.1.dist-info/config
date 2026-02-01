@@ -1,0 +1,4 @@
+{
+  "logger_directory": "/home/volttron/.volttron/AgentPackages/Logger/loggs/",
+  "agent_manager_identity": "agentmanageragent-0.1_1"
+}

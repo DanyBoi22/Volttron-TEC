@@ -1,0 +1,5 @@
+Metadata-Version: 2.0
+Name: agentmanageragent
+Version: 0.1
+Requires-Dist: volttron
+

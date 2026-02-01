@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=iCbB3TQHH0NOZBPXdxmQ3aCurCvePmSRvLoL5Su-bZg,3127
+tests/test_integration.py,sha256=jnKil9kp2YaDAFKjANGkqKx5J1C5Ql6jMsnhenltDWk,1446
+tests/test_topicregistry.py,sha256=ECpEr027t8PXNUSQGfgWxMB8565Eb9gonXulKdT_Av8,14677
+topicregistry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+topicregistry/agent.py,sha256=Sgq1hoEDFIZgky816Uz0pCfnY6mrUc_7YHaW9BIqfhg,17359
+topicregistryagent-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+topicregistryagent-0.1.dist-info/METADATA,sha256=kEfKxa3xUghV8OQqRlBUaGksUaDR9v1bw7158Xp9TkM,204
+topicregistryagent-0.1.dist-info/RECORD,,
+topicregistryagent-0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+topicregistryagent-0.1.dist-info/entry_points.txt,sha256=LimI1th3KskisEn79T3sKxRtN3uufYQXEXqP4w0lAfo,67
+topicregistryagent-0.1.dist-info/metadata.json,sha256=1RN21oVd_WAl5N04jvenHgdsSyQtUEhxF09Zc2Vq9no,377
+topicregistryagent-0.1.dist-info/top_level.txt,sha256=dTWkg9iGk2GJ9CjnNd3Ni4Ts30FNOxoyaFpBLEfiXT8,20
+topicregistryagent-0.1.dist-info/config,sha256=sAKYR22mDGlbsEXJETeZIovjvUuW8nohu3kdAUVsNzU,3811

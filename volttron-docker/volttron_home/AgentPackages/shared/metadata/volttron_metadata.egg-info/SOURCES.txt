@@ -1,0 +1,8 @@
+README.md
+setup.py
+metadata/__init__.py
+metadata/metadata_mixin.py
+volttron_metadata.egg-info/PKG-INFO
+volttron_metadata.egg-info/SOURCES.txt
+volttron_metadata.egg-info/dependency_links.txt
+volttron_metadata.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+{"extensions": {"python.exports": {"setuptools.installation": {"eggsecutable": "agentmanager.agent:main"}}}, "extras": [], "generator": "bdist_wheel (0.30.0)", "metadata_version": "2.0", "name": "agentmanageragent", "run_requires": [{"requires": ["volttron"]}], "version": "0.1"}

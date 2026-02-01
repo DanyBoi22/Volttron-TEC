@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: volttron-metadata
+Version: 0.1
+Summary: Shared metadata mixin and tools for Volttron agents
+Author: Dany

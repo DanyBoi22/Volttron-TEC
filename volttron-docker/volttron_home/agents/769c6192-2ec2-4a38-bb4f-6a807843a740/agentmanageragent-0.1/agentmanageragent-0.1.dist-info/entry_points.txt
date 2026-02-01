@@ -1,0 +1,2 @@
+[setuptools.installation]
+eggsecutable = agentmanager.agent:main

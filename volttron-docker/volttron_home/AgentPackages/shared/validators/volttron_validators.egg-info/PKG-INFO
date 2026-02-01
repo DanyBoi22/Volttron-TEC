@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: volttron-validators
+Version: 0.1
+Summary: Shared lib to validate control commands for plants
+Author: Dany
