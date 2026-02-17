@@ -1,5 +1,8 @@
 # VOLTTRON-TEC
-Prototype of a VOLTTRON-based experimentation platform. Developed for use at TEC as part of a bachelor's thesis.
+Prototype of a VOLTTRON-based experimentation platform. Developed for use at TEC as part of a bachelor's thesis. 
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Content
 This repository has three different subfolders.
